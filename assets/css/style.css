@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header Section start */
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* h2{ 
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}*/
+header{
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background: #131e3a;
+    display: flex;
+    padding: 0px 125px;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul li{
+    margin-right: 15px;
+    display: inline-block;
+}
+header ul li a{ 
+    font-weight: 600;
+}
+header ul li a.active{
+    color: #ff4f7b;
+}
+/* Header Section end */
+
+/* Banner section start */
+.banner{
+    width: 100%;
+    height: 650px;
+    padding: 0px 125px;
+    background:  url(../img/banner.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: normal;
+    top:100px;
+    position: absolute;
+    color: #203a46;
+}
+.banner h2{
+    font-size: 30px;
+    top:230px;
+    position: absolute;
+    color: #000;
+}
+.banner form{
+    width: 80%;
+    height: auto;
+    padding: 2px 8px;
+    bottom: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5c327a;
+}
+.banner form button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background: #43215c;
+    margin-top: 0px;
+}
+.banner form button.active{
+    background: #fc2d4b;
+}
+.banner form label.form{
+    display: none;
+}
+.banner form .searchForm{
+    margin-top: 8px;
+}
+.banner form .searchForm input,
+.banner form .searchForm select{
+    width: 150px;
+    height: 35px;
+    margin-right: 5px;
+}
+.banner form button.smt{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background: #ff676b;
+}
+.banner .formTrip select{
+    background: #5c327a;
+    border: none;
+    color: #fff;
+}
+.banner .formTrip .chk{
+    width: 15px;
+    height: 15px;
+    background: #5c327a;
+}
+.banner .formTrip label{
+    color: #fff;
+}
+/* Banner section start */
+
+/* Fun section start*/ 
+.fun{
+    width: 100%;
+    height: 350px;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/banner2.jpg);
+    background-size: 100% 100%;
+}
+.fun h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.fun ul{
+    display: flex;
+    justify-content:space-between;
+}
+.fun ul li{
+    list-style: none;
+    width: 130px;
+    height: 125px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    background: rgba(0,0,0,0.7) ;
+}
+.fun ul li p{
+    font-size: 10px;
+    padding-top: 3px;
+}
+.fun ul li h5{
+    font-size: 15px;
+    padding-top: 6px;
+}
+/* Fun section end*/
+
+/* Newslatter section start */
+.newslatter{
+    width: 100%;
+    padding: 50px 125px;
+    color: #fff;
+    background: linear-gradient(rgba(52, 5, 63, 0.5),rgba(63, 5, 75, 0.5)),url(../img/sky.jpg);
+    background-size: 100% 100%;
+    text-align: right;
+}
+.newslatter  p{
+    text-align: center;
+    padding-left: 446px;
+    padding-top: 15px;
+}
+.newslatter input[type]{
+    margin: 10px 5px;
+    margin-top: 20px;
+}
+.newslatter #newsemail{
+    width: 42%;
+    height: 30px;
+    color:white;
+    background: #4a5995;
+    border: 2px solid white;
+}
+.newslatter #btn{
+    width: 120px;
+    height: 30px;
+}
+/* Newslatter section end */
+
+/* Destination section start */
+.destination{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 50px 125px;
+    background: #20162f;
+}
+.destination h2{
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+}
+.destination ul{
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-template-rows: 290px 290px;
+    grid-gap:30px ;
+    padding-bottom: 20px;
+}
+.destination ul li{
+    text-align: center;
+    list-style: none;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    background: #fff;
+}
+.destination ul li img{
+    width:100%;
+    height: 150px;
+}
+.destination ul li div.content{
+    color: #000;
+    padding: 20px;
+}
+.destination ul li div p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.content span{
+    color: rgb(224, 122, 58);
+}
+/* Destination section start */
+
+/* Estimate section start */
+.estimate{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    position: relative;
+    background-color: #664cad;
+}
+.estimate label{
+    display: none;
+}
+.estimate img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.estimate h2,h3{
+    color: #fff;
+}
+.estimate h3{
+    
+    margin-bottom: 20px;
+}
+.estimate input[type],select{
+    width: 175px;
+    height: 40px;
+    margin-right: 10px;
+    background: #fff;
+    padding-left: 10px;
+}
+.estimate .bn{
+    padding: 0px 10px;
+    background: #f6a850 !important;
+}
+/* Estimate section end */
+
+/* Blog section start */
+.blog{
+    width: 100%;
+    height: auto;
+    padding: 30px 125px;
+}
+.blog h2{
+    color: #000;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.blog h2+p{
+    text-align: center;
+    padding: 0px 130px;
+}
+.blog-content{
+    margin: 10px auto;
+    display: flex;
+}
+.blog-content div{
+    padding: 10px;
+    display: flex;
+}
+.blog-content div img{
+    width: 143px;
+    height: 135px;
+    margin: 20px 0px;
+}
+.blog-content div div{
+    display: inline-block;
+    margin-left: 7px;
+}
+.blog-content div div h3{
+    color: #000;
+    padding: 0px 5px;
+    font-size: 18px;
+}
+.blog-content div div p{
+    padding: 10px 0px;
+    margin-left: 5px;
+    width: 330px;
+}
+.blog-content div div hr{
+    margin: 5px 5px;
+}
+/* Blog section end */
+
+/* Footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 125px;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/footer.jpg);
+    background-size: 100% 100%;
+}
+footer h3{
+    color: #918e97;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+footer .international img{
+    width: 15px;
+    height: 10px;
+    margin-right: 5px;
+}
+footer .international div {
+    display: flex;
+    justify-content:space-between;
+}
+footer .international div .inter1{
+    margin-right: 50px;
+}
+footer .topfoot 
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer .topfoot div{
+    margin-right: 60px;
+}
+footer .topfoot .international{
+    margin-right: 0;
+    margin-left: 30px;
+}
+footer .topfoot ul li{
+    padding: 5px 0px;
+}
+footer .topfoot .country i,
+footer .topfoot .city i{
+    margin-right: 4px;
+}
+footer .bottomfooter{
+    display: flex;
+}
+footer .bottomfooter .footmenu{
+    margin-top: 45px;
+    margin-left: 10px;
+}
+footer .bottomfooter .footmenu ul li{
+    display: inline-block;
+}
+footer .bottomfooter div img{
+    width: 30px;
+    height: 30px;
+    margin: 50px 10px 0px 0px;
+}
+footer .bottomfooter .footmenu ul li a{
+    color:#fff;
+    padding-right: 15px;
+    margin-bottom: 5px;
+}
+footer .bottomfooter .footmenu p{
+    padding: 5px 0px;
+    font-size: 15px;
+    color:#78707F;
+}
+footer .bottomfooter .social ul li{
+    display: inline-block;
+    margin-top: 45px;
+    padding: 0px 5px;
+}
+footer .bottomfooter .social ul li a i{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #c1b9c6;
+    background:#c1b9c6;
+    color: #000;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+footer .bottomfooter .social{
+    margin: auto;
+}
+/* Footer section start */
+
+/* Media query start */
+@media screen and (max-width:1199px){
+   header, .banner, .fun,
+   .newslatter,.destination,
+   .estimate,.blog,footer{
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+   .banner form{
+    width: 86%;
+   }
+   .banner form .searchForm input,
+   .banner form .searchForm select{
+    width: 17%;
+   }
+   .banner form button.smt{
+    margin-left: 0px;
+   }
+   .estimate form input[type],
+   .estimate form select{
+    width:13%;
+   }
+  .blog .blog-content {
+    display: block;
+    
+    }
+  .blog .blog-content .left img,.blog .blog-content .right img {
+    width: 280px;
+  
+   }
+ 
+   footer .topfoot{
+    font-size: 13px;
+    }
+    footer .bottomfooter .footmenu{
+        font-size: 15px;
+    }
+    footer .bottomfooter .footmenu p{
+        font-size: 13px;
+    }
+    }
+@media screen and (max-width:991px){
+    .fun ul li{
+        width:105;
+        height: 115px;
+        font-size: 35px;
+    }
+    .blog-content{
+        display: block;
+    }
+    .estimate form input[type],
+    .estimate form select{
+        width:120px;
+    }
+    .estimate form img{
+        width: 80px;
+    }
+    
+    .destination ul {
+        display: grid;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: 300px 300px;
+        grid-gap: 30px;
+    }
+    .destination ul li div p{
+    
+    font-size: 15px;
+    }
+    footer .bottomfooter .footmenu{
+        font-size: 14px;
+    }
+    footer .bottomfooter .footmenu p{
+        font-size: 12px;
+    }
+    .fun ul li{
+        width:90px;
+        height: 90px;
+        font-size: 25px;
+        padding: 5px;
+    }
+    footer .topfoot {
+        display: flex;
+       }
+       footer .international div {
+        display: block;
+       }
+
+}
+@media screen and (max-width:810px){
+    header, .banner, .fun,
+    .newslatter,.destination,
+    .estimate,.blog,footer{
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    header .nav{
+        display: none;
+    }
+    .banner h1{
+        top:20px
+    }
+    .banner h2{
+        top:140px;
+       
+    }
+    .banner form{
+    flex-direction: column;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgb(81, 34, 68);
+    
+    left: 25%;
+
+    height: auto;
+    
+    }
+    .banner form button {
+        width: 95px;
+    }
+    .banner form button.smt {
+        border-radius: 0px;
+        width:300px ;
+        height: 35px;
+    }
+    .banner form .switchButton{
+        margin: 10px;
+        
+        
+    }
+    .banner form .searchForm input,
+   .banner form .searchForm select{
+    display: block;
+    width: 300px;
+    margin: 5px 10px;
+   }
+  
+   .banner form .formTrip div select{
+   display: block;
+    
+    width: 300px;
+   }
+    .banner form .formTrip div input{
+        display: inline-block;
+    
+    }
+    .banner form .formTrip div label{
+        font-size: 14px;
+    }
+
+   .banner form .searchForm span{
+    display: none;
+   }
+   .fun{
+    height: auto;
+   }
+   .fun ul{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: 130px 130px;
+    grid-gap:5px ;
+    
+   }
+   .fun ul li{
+    width: 110px;
+    height: 100px;
+   }
+   .destination ul{
+    
+    grid-template-columns: repeat(2,47%);
+    grid-template-rows: 300px 300px 300px 300px;
+    
+   }
+   footer .topfoot {
+    display: block;
+   }
+   footer .international div {
+    display: block;
+   }
+   
+}
+
+
+
+
+
+/* Media query end */

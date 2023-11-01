@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momondo - Make your traveling easy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Header section start -->
+    <header>
+        
+        <div>
+            <a href="index.html">
+                <img src="./assets/img/logo.png" alt="logo"width="60px"height="20px"> 
+            </a>
+        </div>
+    
+        <ul class="nav">
+            
+            <li>
+                <a href="javascript:void()" class="active">
+                    Flights
+                </a>
+            </li>
+
+            <li>
+                <a href="javascript:void()">
+                     Hotels
+                </a>
+            </li>
+
+            <li>
+                <a href="javascript:void()">
+                    Cire Hire
+                </a>
+            </li>
+
+            <li>
+                <a href="javascript:void()">
+                     Trip Finder
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="javascript:void()">
+                    <img src="./assets/img/icn-us.svg" alt="us-flag" width="20px" height="20px"style="padding-top:9px;">
+                    English
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void()">
+                    Log in
+                </a>
+            </li>
+        </ul>
+
+    </header>
+    <!-- /Header section end -->
+    <!-- Banner section start -->
+    <section class="banner">
+
+        <h1>"The best place to find <br> the cheapest airfares"</h1>
+        <h2>- every single time</h2> 
+
+        
+        <form method="">
+            <div>
+                <div class="switchButton">
+
+                    <button type="button"class="active">
+                        <i class="fa-solid fa-plane-departure"></i> Flights
+                    </button>
+
+                    <button type="button">
+                        <i class="fa-solid fa-shop"></i> Hotels
+                    </button>
+
+                    <button type="button">
+                        <i class="fa-solid fa-car"></i> cars
+                    </button>
+
+                </div>
+
+                <div class="searchForm">
+
+                    <label for="origin-city" class="form">Origin City</label>
+                    <input type="text" name="origin-city" id="origin-city"placeholder="Enter Origin City">
+
+                    <span><i class="fa-solid fa-arrow-right-arrow-left" style="color:aqua; margin-right: 5px;"></i></span>
+
+                    <label for="Destination-city"class="form">Destination City</label>
+                    <input type="text" name="destination-city" id="destination-city"placeholder="Enter Destination city">
+
+                    <label for="travel-start-date"class="form">Start Date</label>
+                    <input type="date" name="travel-start-date" id="travel-start-date"placeholder="Enter start date">
+
+                    <label for="travel-end-date"class="form">End Date</label>
+                    <input type="date" name="travel-end-date" id="travel-end-date"placeholder="Enter end date">
+
+                    <label for="select-pasanger"class="form">Select Pasanger</label>
+                    <select name="select-pasanger" id="select-pasanger">
+                        <option selected>Select Passanger</option>
+                        <option value="pass 1">Passanger 1</option>
+                        <option value="pass 2">Passanger 2</option>
+                        <option value="pass 3">Passanger 3</option>
+                        <option value="pass 4">Passanger 4</option>
+                        <option value="pass 5">Passanger 5</option>
+                    </select>
+
+                    <div class="formTrip">
+                        <div>
+                            <select name="trip-type-return-type"    id="trip-type-return-type">
+                                <option selected> Trip Type:Return Type</option>
+                                <option value="one-way">One Way</option>
+                            </select>
+    
+                            <select name="tickit-class" id="tickit-class">
+                                <option selected>Trip class: Economy</option>
+                                <option value="genral">genral</option>
+                                <option value="vip">VIP</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="dirext-flight-only" name="chkb" value="flight" class="chk">
+                            <label for="drect-flight-only"> Direct Flight Only</label>
+    
+                            <input type="checkbox" id="airport" name="chkb" value="airport" class="chk">
+                            <label for="airport"> Include nearly airports</label>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="submit" class="smt">Search</button>
+            </div>
+
+        </form>
+    </section>
+    <!-- /Banner section end -->
+    <!-- Fun section start -->
+    <section class="fun">
+        <h2>SOME FUN WE COVER</h2>
+        <ul>
+            <li>
+                <i class="fa-solid fa-person-biking"></i>
+                <h5>570 M</h5>
+                <P>CYCLING TRACK</P>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <H5>480 M</H5>
+                <P>DISTANCE COVERD</P>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-person-hiking"></i>
+                <H5>5670 M</H5>
+                <P>AITITUDE HIKED</P>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-sailboat"></i>
+                <H5>180 KM</H5>
+                <P>SAILING DISTANCE</P>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-mountain-sun"></i>
+                <H5>570 DAYS</H5>
+                <P>SPENT ADVENTURE</P>
+            </li>
+
+            <li>
+                <i class="fa-solid fa-shield-dog"></i>
+                <H5>567 M</H5>
+                <P>JUGLE DISTANCE</P>
+            </li>
+        </ul>
+    </section>
+    <!-- /Fun section end -->
+
+    <!-- NewsLatter section start -->
+    <section class="newslatter">
+        <h2>SUBSCRIBE FOR OUR TRAVEL NEWSLATTER</h2>
+        <P>join our community of over 300,000 global readers who recieve emails filled with news,<br><span>promotions and other good stuff form G Adventures.</span></P>
+        <form action="">
+            <label for="newsemail"></label>
+            <input type="email" name="newsemail" id="newsemail" placeholder="Enter your email address.... ">
+            <input type="submit"value="SEARCH" id="btn">
+        </form>
+    </section>
+    <!-- /NewsLatter section end -->
+
+    <!-- Destination section start -->
+    <section class="destination">
+        <h2>POPULAR DESTINATIONS</h2>
+        <ul>
+            <li>
+                <div> 
+                    <img src="./assets/img/1.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$999 </span> Rome florence  9-Night vacation w/Air.</h4>
+                    <p>This is the lowest price we've seen in four years </p>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/3.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$1699 </span >Australia Sydney & Vacation  save <span>$550</span></h4>
+                    <p>This is the lowest price we've seen in four years </p>
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h4><span>$999 </span>ipsum dolor consect adipis <span>save $1060</span></h4>
+                    <p >This is the lowest price we've seen in four years </p>      
+                </div>
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/5.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$899</span>  dolor consectetur adipisicing elit.</h4>
+                    <p >This is the lowest price we've seen in four years </p>
+                </div>  
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/6.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$1299</span> ipsum dolor consectetur <span>save $1660</h4>
+                    <p >This is the lowest price we've seen in four years </p>    
+                </div>  
+            </li> 
+
+            <li>       
+                <div>
+                    <img src="./assets/img/7.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$639</span> ipsum dolor consectetur <span> save $250</h4>
+                    <p >This is the lowest price we've seen in four years </p>
+                </div>   
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/8.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$1942 </span> ipsum dolor  consectetur adipisicing el</h4>
+                    <p>This is the lowest price we've seen in four years </p>
+                </div>   
+            </li>
+
+            <li>
+                <div>
+                    <img src="./assets/img/9.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h4><span>$999 </span>ipsum dolor consectetur adipisicing</h4>
+                    <p >This is the lowest price we've seen in four years </p>
+                </div>  
+            </li>
+        </ul>
+    </section>
+    <!-- /Destination section end -->
+
+    <!-- Estimate section start -->
+    <section class="estimate">
+        <h2>GET A QUICK ESTIMATE!</h2>
+        <h3>GET APROFESSIONAL HELP<hr style="color: white ;margin-top: 10px;"width="50px"></h3>
+        <form>
+            <label for="purpose">Purpose</label>
+            <select name="purpose" id="purpose">
+                <option value="travel">Travel</option>
+                <option value="business">Business</option>
+                <option value="medical">Medical</option>
+                <option value="sport">Sport</option>
+            </select>
+
+            <label for="tdate">Travel Date</label>
+            <input type="date" name="tdate" id="">
+            
+            <label for="purpose">Number of people</label>
+            <select name="npeople" id="people">
+                <option value="nop">Number of people</option>
+                <option value="one">one</option>
+                <option value="two">Two</option>
+                <option value="three">Three</option>
+                <option value="four">Four</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id=""placeholder="your Email">
+
+            <label for="calculate">Calculate Now</label>
+            <input type="submit" value="calculate now" class="bn">
+            <img src="./assets/img/rome.png" alt="rome">
+        </form>
+    </section>
+    <!-- /Estimate section end -->
+
+    <!-- Blog section start -->
+    <section class="blog">
+        <h2>LATEST BLOG</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ad nesciunt veritatis labore illo accusamus similique suscipit, esse aliquid non temporibus explicabo fuga quia, harum voluptatem incidunt? Atque, quod aliquid.
+        </p>
+        <div class="blog-content">
+            <div class="left">
+                <img src="./assets/img/sivaji.jpg" alt="siv">
+                <div>
+                    <p>Feb 01,2023</p>
+                    <h3>10 THINGS TODO BEFORE TRAVEL</h3>
+                    <hr size="3px"color="red" width="35px"margin-top="2px">
+                    <p>Lorem ipsum dolor  amet consectetur adipisicing elit. Minima  assumenda et,sit amet doloremque, excepturi!...</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="./assets/img/mom.jpg" alt="siv" >
+                <div>
+                    <p>Feb 01,2023</p>
+                    <h3>SAY NO TO LAZY  </h3>
+                    <hr size="3px"color="black" width="35px"margin-top="2px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima neque doloribus, doloremque,dolor sit amet excepturi!...</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- /Blog section end -->
+
+    <!-- Footer section start -->
+    <footer>
+        <div class="topfoot">
+            
+            <div class="country">
+                    <h3>Top Countries</h3>
+                    <ul>
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;"> 
+                                <i class="fa-solid fa-earth-asia"></i> Flight to
+                            </span>  India
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>United Kingdom
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>United State
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Spain
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Thiland
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Italy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Germany
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Denmark
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>France
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-earth-asia"></i>Flight to
+                                </span>Australia
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="city">
+                    <h3>Top Cities</h3>
+                    <ul>
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span> Delhi, 
+                                <span style="color:#c1b9c6;"> India</span >
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>London, 
+                                <span style="color:#c1b9c6;"> United Kingdom</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to,
+                                </span>New York
+                                <span style="color:#c1b9c6;"> United States</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Bangkok,
+                                <span style="color:#c1b9c6;"> Thiland</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Copenhangen, 
+                                <span style="color:#c1b9c6;"> Denmark</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Oriando, 
+                                <span style="color:#c1b9c6"> United States</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Paris, 
+                                <span style="color:#c1b9c6"> France</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Singapore, 
+                                <span style="color:#c1b9c6"> Singapore</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>Hong Kong, 
+                                <span style="color:#c1b9c6"> Hong Kong</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <span style="color:#78707F;">
+                                    <i class="fa-solid fa-location-dot"></i>Flight to 
+                                </span>  Istanbul, 
+                                <span style="color:#c1b9c6"> Turkey</span>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="international">
+                <h3 >International sites</h3>
+                <div>
+                    <ul class="inter1">
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/a.jpg" alt="">
+                                <span style="color:#c1b9c6"> Billige flybilletter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/am.jpg" alt="">
+                                <span style="color:#c1b9c6"> Cheap Flights</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/ca.jpg" alt="">
+                                <span style="color:#c1b9c6"> Flights</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/fre.jpg" alt="">
+                                <span style="color:#c1b9c6"> Cheap Flights</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/gm.jpg" alt="">
+                                <span style="color:#c1b9c6"> Vuelos baratos</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/h8.jpg" alt="">
+                                <span style="color:#c1b9c6"> Halvat Lennot</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/ha.jpg" alt="">
+                                <span style="color:#c1b9c6"> Vol pas cher</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/h1.jpg" alt="">
+                                <span style="color:#c1b9c6"> Voli low cost</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/h3.jpg" alt="">
+                                <span style="color:#c1b9c6"> Billige flybilletter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/h4.jpg" alt="">
+                                <span style="color:#c1b9c6"> Goedkope Vligtickets</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/h7.jpg" alt="">
+                                <span style="color:#c1b9c6"> Voos baratos</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/in.jpg" alt="">
+                                <span style="color:#c1b9c6">India </span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:void()">
+                                <img src="./assets/img/ha.jpg" alt="">
+                                <span style="color:#c1b9c6"> Flygresor</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+    
+        <div class="bottomfooter">
+        <div>
+            <img src="./assets/img/logof.png" alt="">
+        </div>
+
+        <div class="footmenu">
+            <ul>
+                <li>
+                    <a href="javascript:void()">About us</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Jobs</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Press</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Affiliate</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Terms of use</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Cookies</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Airlines</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Apps</a>
+                </li>
+
+                <li>
+                    <a href="javascript:void()">Help</a>
+                </li>
+            </ul>
+            <p>
+                momondo.co.uk is a free, Independent global travel search site comparing billions of cheap flights,hotels and car hire deal
+            </p>
+        </div>
+
+            <div class="social">
+                
+                <ul>
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="javascript:void()">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer section end -->
+
+
+</body>
+</html>
